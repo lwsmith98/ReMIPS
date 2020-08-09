@@ -26,8 +26,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 struct Register {
     name: String,
     number: i32,
-    value: mut i32,
-    reset_value: mut i32,
+    value: i32,
+    reset_value: i32,
 }
 
 
