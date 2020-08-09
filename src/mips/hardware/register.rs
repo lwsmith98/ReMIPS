@@ -100,8 +100,7 @@ impl Register {
     /// ```
     /// new_register.set_value(1234567);
     /// ```
-    fn set_value(&mut self, new_val: i32) -> i32 {
-        let old_val: i32 = self.value;
+    fn set_value(&mut self, new_val: i32) -> None {
         self.value = new_val
     }
 
